@@ -1,0 +1,65 @@
+.container {
+    margin: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 20pt;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: lighter;
+    margin-block-start: 0em;
+    margin-block-end: 0.5em;
+    text-align: center;
+}
+
+h4 {
+    font-size: 9pt;
+    font-weight: lighter;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+}
+
+.header {
+    flex-direction: row;
+}
+
+.logo {
+    float: left; 
+    display: flex;
+    align-items: center; 
+    margin-left: 5px;
+}
+
+#book-image {
+    display: inline-block;
+    width: auto;
+    height: 30px;
+}
+
+.info {
+    float: right;
+    border: solid 1px;
+    border-radius: 5px;
+    border-color: black;
+    margin: 0;
+    padding: 10px;
+    line-height: 100%;
+}
+
+.info-items {
+    float: left;
+
+}
+
+.info-span {
+    float: right;
+    font-size: 9pt;
+    font-weight: lighter;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+}
+
