@@ -11,7 +11,7 @@ h1 {
 }
 
 h2 {
-    font-size: 16pt;
+    font-size: 12pt;
     font-weight: lighter;
     margin-block-start: 0em;
     margin-block-end: 0.5em;
@@ -19,7 +19,7 @@ h2 {
 }
 
 h4 {
-    font-size: 9pt;
+    font-size: 7pt;
     font-weight: lighter;
     margin-block-start: 0.2em;
     margin-block-end: 0.2em;
@@ -43,13 +43,14 @@ h4 {
 }
 
 .info {
+    background-color: 	#5dbcd2;
     float: right;
     border: solid 1px;
     border-radius: 5px;
     border-color: black;
     margin: 0;
     padding: 10px;
-    line-height: 100%;
+    line-height: 75%;
 }
 
 .info-items {
@@ -59,9 +60,8 @@ h4 {
 
 .info-span {
     float: right;
-    font-size: 9pt;
+    font-size: 7pt;
     font-weight: lighter;
     margin-block-start: 0.2em;
-    margin-block-end: 0.2em;
 }
 
